@@ -38,8 +38,12 @@ assign six_digit_seg = { seg_left, seg_right, seg_left, seg_right, seg_left, seg
 
  ### **Top Module 의 DUT/TestBench Code 및 Waveform 검증**
 
-`Please fill up your source`
+![](https://github.com/choihj0202/LogicDesign/blob/master/Practice06/figs/tb_waveform.PNG)
 
 ### **FPGA 동작 사진 (3개- 일반, Q1, Q2)**
 
-`Please fill up your source`
+![](https://github.com/choihj0202/LogicDesign/blob/master/Practice06/figs/fpga_1.jpg)
+
+![](https://github.com/choihj0202/LogicDesign/blob/master/Practice06/figs/fpga_2.jpg)
+
+![](https://github.com/choihj0202/LogicDesign/blob/master/Practice06/figs/fpga_3.jpg)
