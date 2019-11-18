@@ -119,7 +119,7 @@ input	[5:0]	i_six_dp		;
 input		clk			;
 input		rst_n			;
 
-wire		gen_clk		;
+wire		gen_clk			;
 
 nco		u_nco(
 		.o_gen_clk	( gen_clk	),
@@ -435,8 +435,8 @@ controller		u_ctrl( .o_mode	          (			   ),
 				.o_position 	  (			   ),
 				.o_sec_clk   	  ( o_sec_clk_w 	   ),
 				.o_min_clk	  ( o_min_clk_w 	   ),
-				.i_max_hit_sec    ( o_max_hit_min_w	   ),
-				.i_max_hit_min    ( o_max_hit_sec_w	   ),
+				.i_max_hit_sec    ( o_max_hit_sec_w	   ),
+				.i_max_hit_min    ( o_max_hit_min_w	   ),
 				.i_sw0	     	  ( i_sw0		   ),
 				.i_sw1	     	  ( i_sw1		   ),
 				.i_sw2	     	  ( i_sw2		   ),
