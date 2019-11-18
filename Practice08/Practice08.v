@@ -538,13 +538,13 @@ input		i_buzz_en	;
 input		clk		;
 input		rst_n		;
 
-parameter	C = 191113	;
-parameter	D = 170262	;
-parameter	E = 151686	;
-parameter	F = 143173	;
-parameter	G = 63776	;
-parameter	A = 56818	;
-parameter	B = 50619	;
+parameter	C = 11944;
+parameter	D = 10641;
+parameter	E = 9480 ;
+parameter	F = 8948 ;
+parameter	G = 7972 ;
+parameter	A = 7102 ;
+parameter	B = 6327 ;
 
 wire		clk_bit		;
 nco	u_nco_bit(	
@@ -604,7 +604,7 @@ nco	u_nco_buzz(
 		.clk		( clk		),
 		.rst_n		( rst_n		));
 
-assign		o_buzz = buzz & i_buzz_en;
+assign		o_buzz = buzz & i_buzz_en & clk_bit;
 
 endmodule
 
