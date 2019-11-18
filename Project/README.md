@@ -14,7 +14,7 @@
 
 ### **2. 알람 설정**
 
-![](https://github.com/choihj0202/LogicDesign/blob/master/Project/figs/top_hms_clock_AddHour.PNG)
+![](https://github.com/choihj0202/LogicDesign/blob/master/Project/figs/top_hms_alarm_AddHour.PNG)
 
 : 각 module에 필요한 경우 시간 항목 추가
 
